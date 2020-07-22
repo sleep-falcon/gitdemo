@@ -1,31 +1,21 @@
 package Mysqljdbc;
-
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import java.awt.Font;
-import javax.swing.UIManager;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
 import javax.swing.JPasswordField;
 
 /**
- * Title	     : 一切开始的地方
- * Description:
+ * Title	     : 登录界面
+ * Description: 实现登录功能
  * Copyright  : Copyright (c) 2006 - 2020
  * @author YUAN Liyao
- * @version
- * @author
- * @version
+ * @version 1.0
  */
 public class log  {
 
@@ -115,8 +105,6 @@ public class log  {
         lblNewLabel_2 = new JLabel("");
         lblNewLabel_2.setBounds(160, 409, 200, 28);
         contentPane.add(lblNewLabel_2);
-
-
     }
 }
 
